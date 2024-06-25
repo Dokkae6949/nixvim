@@ -6,11 +6,12 @@
     ./globals.nix
     ./options.nix
     ./keymaps.nix
+    ./clipboard.nix
 
     # plugins
-    ./bufferline.nix
-    ./lualine.nix
-    ./lsp.nix
+    ./plugins/bufferline.nix
+    ./plugins/lualine.nix
+    ./plugins/lsp.nix
   ];
 
   extraPackages = with pkgs; [
@@ -18,8 +19,11 @@
   ];
 
   plugins = {
-    # fuzzy file browser
+    # fuzzy finder thingy
     telescope.enable = true;
+
+    # better file browser
+    oil.enable = true;
 
     # better default syntax highlighting
     treesitter.enable = true;

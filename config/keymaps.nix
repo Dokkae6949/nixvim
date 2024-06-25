@@ -7,8 +7,12 @@
       key = "<leader>g";
     }
     {
-			action = "<cmd>Telescope fd<CR>";
-			key = "<leader>f";
-		}
+      action = "<cmd>Telescope fd<CR>";
+      key = "<leader>f";
+    }
+    {
+      action = "<cmd>Oil --float<CR>";
+      key = "<leader>d";
+    }
   ];
 }

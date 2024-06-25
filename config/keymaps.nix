@@ -2,17 +2,22 @@
 
 {
   keymaps = [
-    {
-      action = "<cmd>Telescope live_grep<CR>";
-      key = "<leader>g";
-    }
-    {
-      action = "<cmd>Telescope fd<CR>";
-      key = "<leader>f";
-    }
-    {
-      action = "<cmd>Oil --float<CR>";
-      key = "<leader>d";
-    }
+    ### Built-In ###
+    # Buffers
+    { action = "<cmd>bnext<CR>";
+      key = "<leader>n"; }
+    { action = "<cmd>bprevious<CR>";
+      key = "<leader>p"; }
+
+    ### PLUGINS ###
+    # Telescope
+    { action = "<cmd>Telescope live_grep<CR>";
+      key = "<leader>g"; }
+    { action = "<cmd>Telescope fd<CR>";
+      key = "<leader>f"; }
+
+    # Oil
+    { action = "<cmd>Oil --float<CR>";
+      key = "<leader>d"; }
   ];
 }

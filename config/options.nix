@@ -10,7 +10,7 @@
     smarttab = true;
     expandtab = true;
     
-    list = true;
+    list = false;
     listchars = "tab: \ ,space:·";
   };
 }

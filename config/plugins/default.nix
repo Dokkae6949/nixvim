@@ -1,7 +1,7 @@
 { ... }:
 
 {
-  import = [
+  imports = [
     ./bufferline.nix
     ./lualine.nix
     ./luasnip.nix

@@ -17,7 +17,7 @@
       key = "<leader>f"; }
 
     # Oil
-    { action = "<cmd>Oil --float<CR>";
+    { action = "<cmd>Oil<CR>";
       key = "<leader>d"; }
   ];
 }

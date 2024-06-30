@@ -7,6 +7,7 @@
     ./luasnip.nix
     ./lsp.nix
     ./cmp.nix
+    ./parinfer-rust.nix
   ];
   
   plugins = {

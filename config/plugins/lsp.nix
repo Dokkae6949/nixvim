@@ -18,6 +18,8 @@
       tsserver.enable = true;
       html.enable = true;
       cssls.enable = true;
+      svelte.enable = true;
+      tailwindcss.enable = true;
 
       sqls.enable = true;
     };

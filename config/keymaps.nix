@@ -8,6 +8,8 @@
       key = "<leader>n"; }
     { action = "<cmd>bprevious<CR>";
       key = "<leader>p"; }
+    { key = "<13>";
+      action = "<CR>"; }
 
     ### PLUGINS ###
     # Telescope

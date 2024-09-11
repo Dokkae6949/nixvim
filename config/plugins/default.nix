@@ -1,4 +1,7 @@
-{ ... }:
+{ inputs
+, pkgs
+, ...
+}:
 
 {
   imports = [
@@ -23,4 +26,13 @@
     # code snippets
     luasnip.enable = true;
   };
+
+  extraPlugins = [
+    (pkgs.vimUtils.buildVimPlugin { 
+      name = "markdown.nvim";
+      src = inputs.plugin-markdown;
+    })
+  ];
+
+  extraConfigLua = "require('render-markdown').setup({})";
 }

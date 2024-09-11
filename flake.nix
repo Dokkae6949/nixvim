@@ -5,6 +5,11 @@
     nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
     nixvim.url = "github:nix-community/nixvim";
     flake-parts.url = "github:hercules-ci/flake-parts";
+
+    plugin-markdown = {
+      url = "github:MeanderingProgrammer/markdown.nvim";
+      flake = false;
+    };
   };
 
   outputs = { nixvim, flake-parts, ... }@inputs:
@@ -29,7 +34,7 @@
             
             # You can use `extraSpecialArgs` to pass additional arguments to your module files
             extraSpecialArgs = {
-              # inherit (inputs) foo;
+              inherit inputs;
             };
           };
           nvim = nixvim'.makeNixvimWithModule nixvimModule;

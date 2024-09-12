@@ -10,6 +10,7 @@
     ./luasnip.nix
     ./lsp.nix
     ./cmp.nix
+    ./copilot.nix
     ./parinfer-rust.nix
   ];
   

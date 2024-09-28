@@ -5,11 +5,12 @@
 
 {
   imports = [
+    ./completion
+
     ./bufferline.nix
     ./lualine.nix
     ./luasnip.nix
     ./lsp.nix
-    ./cmp.nix
     ./copilot.nix
     ./parinfer-rust.nix
   ];

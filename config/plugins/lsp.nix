@@ -27,53 +27,53 @@
 
     keymaps = {
       silent = true;
-
-      gd = {
-        action = "definition";
-        desc = "Goto Definition";
+      lspBuf = {
+        gd = {
+          action = "definition";
+          desc = "Goto Definition";
+        };
+        gD = {
+          action = "declaration";
+          desc = "Goto Declaration";
+        };
+        gr = {
+          action = "references";
+          desc = "Goto References";
+        };
+        gi = {
+          action = "implementation";
+          desc = "Goto Implementation";
+        };
+        gt = {
+          action = "type_definition";
+          desc = "Type Definition";
+        };
+        H = {
+          action = "hover";
+          desc = "Hover";
+        };
+        "<leader>cs" = {
+          action = "workspace_symbol";
+          desc = "Workspace Symbol";
+        };
+        "<leader>cr" = {
+          action = "workspace_symbol";
+          desc = "Workspace Symbol";
+        };
       };
-      gD = {
-        action = "declaration";
-        desc = "Goto Declaration";
-      };
-      gr = {
-        action = "references";
-        desc = "Goto References";
-      };
-      gi = {
-        action = "implementation";
-        desc = "Goto Implementation";
-      };
-      gt = {
-        action = "type_definition";
-        desc = "Type Definition";
-      };
-      H = {
-        action = "hover";
-        desc = "Hover";
-      };
-      "<leader>cs" = {
-        action = "workspace_symbol";
-        desc = "Workspace Symbol";
-      };
-      "<leader>cr" = {
-        action = "workspace_symbol";
-        desc = "Workspace Symbol";
-      };
-    };
-
-    diagnostic = {
-      "<leader>do" = {
-        action = "open_float";
-        desc = "Line Diagnostics";
-      };
-      "<leader>dn" = {
-        action = "goto_next";
-        desc = "Next Diagnostic";
-      };
-      "<leader>dp" = {
-        action = "goto_prev";
-        desc = "Previous Diagnostic";
+      diagnostic = {
+        "<leader>do" = {
+          action = "open_float";
+          desc = "Line Diagnostics";
+        };
+        "<leader>dn" = {
+          action = "goto_next";
+          desc = "Next Diagnostic";
+        };
+        "<leader>dp" = {
+          action = "goto_prev";
+          desc = "Previous Diagnostic";
+        };
       };
     };
   };

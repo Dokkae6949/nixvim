@@ -13,6 +13,8 @@
     ./lsp.nix
     ./copilot.nix
     ./parinfer-rust.nix
+    # ./indent-blankline.nix
+    ./hlchunk.nix
   ];
   
   plugins = {

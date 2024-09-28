@@ -6,9 +6,11 @@
     enable = true;
 
     settings = {
-      exclude = [
-        "terminal"
-      ];
+      exclude = {
+        buftypes = [
+          "terminal"
+        ];
+      };
       indent = {
         char = "|";
       };

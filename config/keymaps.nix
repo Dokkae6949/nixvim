@@ -17,18 +17,12 @@
     ### PLUGINS ###
     # Telescope
     { action = "<cmd>Telescope live_grep<CR>";
-      key = "<leader>g"; }
+      key = "<leader>fg"; }
     { action = "<cmd>Telescope fd<CR>";
-      key = "<leader>f"; }
-
-    # Lsp
-    { action = "<cmd>lua vim.lsp.buf.code_action()<CR>";
-      key = "<leader>a"; }
-    { action = "<cmd>lua vim.lsp.buf.rename()<CR>";
-      key = "<leader>r"; }
+      key = "<leader>ff"; }
 
     # Oil
     { action = "<cmd>Oil<CR>";
-      key = "<leader>d"; }
+      key = "<leader>fd"; }
   ];
 }

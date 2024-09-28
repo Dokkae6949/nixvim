@@ -48,7 +48,7 @@
           action = "type_definition";
           desc = "Type Definition";
         };
-        H = {
+        K = {
           action = "hover";
           desc = "Hover";
         };

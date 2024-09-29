@@ -54,7 +54,7 @@
         mapping = {
           "<Tab>" = "cmp.mapping(cmp.mapping.select_next_item(), {'i', 's'})";
           "<CR>" = "cmp.mapping.confirm({ select = true })";
-          "<S-CR>" = "cmp.mapping.confirm({ behavior = cmp.ConfirmBehavior.Replace, select = true })";
+          # "<S-CR>" = "cmp.mapping.confirm({ behavior = cmp.ConfirmBehavior.Replace, select = true })";
           "<C-space>" = "cmp.mapping.complete()";
           "<C-e>" = "cmp.mapping.abort()";
           "<Esc>" = "cmp.mapping.abort()";

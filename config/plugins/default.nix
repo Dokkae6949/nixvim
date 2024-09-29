@@ -29,6 +29,9 @@
     
     # code snippets
     luasnip.enable = true;
+    
+    # Required by telescope and bufferline
+    web-devicons.enable = true;
   };
 
   extraPlugins = [

@@ -13,8 +13,8 @@
       autoTrigger = true;
 
       keymap = {
-        accept = "<C-l>";
-        acceptWord = "<C-h>";
+        accept = "<S-CR>";
+        acceptWord = "<C-CR>";
         dismiss = "<Esc>";
 
         next = "<C-j>";

@@ -10,11 +10,6 @@
       
       clangd.enable = true;
       java-language-server.enable = true;
-      rust-analyzer = {
-        enable = true;
-        installCargo = true;
-        installRustc = true;
-      };
       
       ts-ls.enable = true;
       html.enable = true;

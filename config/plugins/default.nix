@@ -14,6 +14,7 @@
     ./copilot.nix
     ./parinfer-rust.nix
     ./indent-blankline.nix
+    ./rustaceanvim.nix
     # ./hlchunk.nix
   ];
   

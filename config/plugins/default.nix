@@ -15,6 +15,7 @@
     ./parinfer-rust.nix
     ./indent-blankline.nix
     ./rustaceanvim.nix
+    ./render-markdown.nix
     # ./hlchunk.nix
   ];
   
@@ -34,23 +35,4 @@
     # Required by telescope and bufferline
     web-devicons.enable = true;
   };
-
-  extraPlugins = [
-    (pkgs.vimUtils.buildVimPlugin { 
-      name = "markdown.nvim";
-      src = inputs.plugin-markdown;
-    })
-  ];
-
-  extraConfigLua = ''
-    require('render-markdown').setup({})
-  
-    cmp.event:on('menu_opened', function()
-      vim.b.copilot_suggestion_hidden = true
-    end)
-
-    cmp.event:on('menu_closed', function()
-      vim.b.copilot_suggestion_hidden = false
-    end)
-  '';
 }

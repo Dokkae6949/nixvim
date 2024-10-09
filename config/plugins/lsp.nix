@@ -52,12 +52,16 @@
           desc = "Workspace Symbol";
         };
         "<leader>cr" = {
-          action = "workspace_symbol";
-          desc = "Workspace Symbol";
+          action = "rename";
+          desc = "Rename Symbol";
         };
         "<leader>ca" = {
           action = "code_action";
           desc = "Code Action";
+        };
+        "<leader>cf" = {
+          action = "format";
+          desc = "Format Code";
         };
       };
       diagnostic = {

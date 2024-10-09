@@ -6,12 +6,12 @@
     
     servers = {
       nixd.enable = true;
-      lua-ls.enable = true;
+      lua_ls.enable = true;
       
       clangd.enable = true;
-      java-language-server.enable = true;
+      java_language_server.enable = true;
       
-      ts-ls.enable = true;
+      ts_ls.enable = true;
       html.enable = true;
       cssls.enable = true;
       svelte.enable = true;

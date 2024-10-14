@@ -18,6 +18,10 @@
       tailwindcss.enable = true;
 
       sqls.enable = true;
+      typst_lsp = {
+        enable = true;
+        autostart = true;
+      };
     };
 
     keymaps = {

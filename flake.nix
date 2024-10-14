@@ -5,11 +5,6 @@
     nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
     nixvim.url = "github:nix-community/nixvim";
     flake-parts.url = "github:hercules-ci/flake-parts";
-
-    plugin-markdown = {
-      url = "github:MeanderingProgrammer/markdown.nvim";
-      flake = false;
-    };
   };
 
   outputs = { nixvim, flake-parts, ... }@inputs:

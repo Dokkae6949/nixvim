@@ -15,7 +15,7 @@
       keymap = {
         accept = "<S-CR>";
         acceptWord = "<C-CR>";
-        dismiss = "<Esc>";
+        dismiss = "<C-space>";
 
         next = "<C-j>";
         prev = "<C-k>";

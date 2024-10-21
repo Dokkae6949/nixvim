@@ -16,6 +16,8 @@
     ./indent-blankline.nix
     ./rustaceanvim.nix
     ./render-markdown.nix
+    ./harpoon.nix
+    ./which-key.nix
     # ./hlchunk.nix
   ];
   

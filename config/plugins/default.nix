@@ -18,6 +18,7 @@
     ./render-markdown.nix
     ./harpoon.nix
     ./which-key.nix
+    ./treesitter.nix
     # ./hlchunk.nix
   ];
   
@@ -27,9 +28,6 @@
     
     # better file browser
     oil.enable = true;
-    
-    # better default syntax highlighting
-    treesitter.enable = true;
     
     # code snippets
     luasnip.enable = true;

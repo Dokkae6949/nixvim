@@ -18,7 +18,7 @@
       tailwindcss.enable = true;
 
       sqls.enable = true;
-      typst_lsp = {
+      tinymist = {
         enable = true;
         autostart = true;
       };
